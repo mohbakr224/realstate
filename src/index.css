@@ -1,0 +1,22 @@
+.links a {
+  background: transparent !important;
+}
+.links:hover {
+  background: transparent !important;
+  border-bottom: 2px solid #8E1616;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('src/assets/Fonts/Lato/Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('src/assets/Fonts/Playfair Display/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+}
+h1{
+  font-family: 'Playfair Display';
+}
+p,span,a{
+  font-family: 'Lato';
+}
