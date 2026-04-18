@@ -3,6 +3,7 @@ import './App.css'
 import { createBrowserRouter , RouterProvider } from 'react-router-dom'
 import Layout from './Pages/Layout/Layout'
 import Home from './Pages/Home/Home';
+import Zones from './Pages/Zones/Zones';
 
 const router=createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router=createBrowserRouter([
        {
         path:"/",
         element:<Home/>
+      },
+      {
+        path:"/zones",
+        element:<Zones/>
       }
     ]
   }

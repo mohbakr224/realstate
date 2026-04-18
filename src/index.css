@@ -20,3 +20,28 @@ h1{
 p,span,a{
   font-family: 'Lato';
 }
+.header {
+  position: relative;
+  display: inline-block; /* مهم جدًا */
+  font-size: 23px;
+  
+}
+
+.header {
+  position: relative;
+  display: inline-block;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  width: 50%;
+  height: 4px;
+  background-color: #C34B4B;
+  border-radius: 999px;
+  transform: translateX(-50%);
+}
